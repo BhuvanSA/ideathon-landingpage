@@ -19,18 +19,31 @@ const Footer = () => {
           </p>
           <p className="mb-4">
             <strong className="font-medium">Email </strong>
-            <a href={`mailto:${emailAddress}`}> {emailAddress}</a>
+            <a
+              className="hover:text-orange-500 transition ease-in-out delay-150"
+              href={`mailto:${emailAddress}`}
+              target="_blank"
+            >
+              {" "}
+              {emailAddress}
+            </a>
           </p>
           <p className="mb-4">
-            <strong className="font-medium">Designed By</strong>
-            <a href={""}></a>
+            <strong className="font-medium">Designed By </strong>
+            <a
+              className="hover:text-orange-500 transition ease-in-out delay-150"
+              href={"https://github.com/bhuvansa"}
+              target="_blank"
+            >
+              BhuvanSA
+            </a>
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <a
               href="https://www.facebook.com/profile.php?id=100088874345617&mibextid=ZbWKwL"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
+              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md hover:bg-gray-500 transition ease-in-out delay-150"
             >
               <Facebook className="h-6 w-6" />
             </a>
@@ -38,7 +51,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/ai-ml-a41198260"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
+              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md hover:bg-gray-500 transition ease-in-out delay-150"
             >
               <LinkedIn className="h-6 w-6" />
             </a>
@@ -47,7 +60,7 @@ const Footer = () => {
               href="https://www.instagram.com/gat_aiml/?igshid=NjIwNzIyMDk2Mg%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
+              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md hover:bg-gray-500 transition ease-in-out delay-150"
             >
               <Instagram className="h-6 w-6" />
             </a>
