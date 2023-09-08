@@ -1,7 +1,7 @@
 import React from "react";
 import LogoVPN from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
-import LinkedIn from "../../public/assets/Icon/linkedin.svg";
+import LinkedIn from "../../public/assets/Icon/LinkedIn.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
 const Footer = () => {
   const emailAddress = "aimlgat2022@gmail.com";
