@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 // Default value for some meta data
 const defaultMeta = {
   title: "GAT Ideathon",
-  siteName: "GAT Ideathon",
+  siteName: "GAT Ideathon Landing Page",
   description: "Landing page GAT Ideathon AI ML",
   // change base url of your web (without '/' at the end)
   url: "https://next-landing-vpn.vercel.app",

@@ -75,7 +75,7 @@ const Feature = () => {
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
     >
       <div className="box-content h-24"></div>
-      <section className="bg-gray-100 py-10">
+      <section className="bg-white-500 py-10">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold text-center mb-8">
             About IDEAthon
