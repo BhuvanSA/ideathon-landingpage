@@ -16,7 +16,7 @@ const Hero = ({
     {
       name: "Date",
       number: "27 September",
-      icon: "/assets/Icon/user_group.svg",
+      icon: "/assets/Icon/user_group.svg",//date
     },
     {
       name: "Cash Pool",
