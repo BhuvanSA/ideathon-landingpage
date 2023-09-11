@@ -9,18 +9,18 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Players",
-      number: "20",
-      icon: "/assets/Icon/user_single.svg",
+      name: "Team",
+      number: "2-4",
+      icon: "/assets/Icon/user_group.svg",
     },
     {
-      name: "Teams",
-      number: "5",
+      name: "Date",
+      number: "27 September",
       icon: "/assets/Icon/user_group.svg",
     },
     {
       name: "Cash Pool",
-      number: "₹500",
+      number: "₹15000",
       icon: "/assets/Icon/cash_prize.svg",
     },
   ],
@@ -35,22 +35,22 @@ const Hero = ({
       >
         <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-            Unlocking Innovation:{" "}
-            <strong className=" text-orange-500">
-              Join the Ideathon Revolution
-              {/* <TypeAnimation
-                  className="box-content h-10"
-                  sequence={["Join the Ideathon Revolution", () => {}]}
-                  wrapper="span"
-                  cursor={false}
-                /> */}
-            </strong>
-          </h1>
-          <p className="text-black-500 mt-4 mb-6">
-            Fostering Innovation through Collaboration, Technology, and Creative
-            Thinking
-          </p>
-          <ButtonPrimary>Register Now </ButtonPrimary>
+            Unveiling Innovation:{" "}
+            //<strong className=" text-orange-500">
+              //Join the Ideathon Revolution
+              //{/* <TypeAnimation
+                 // className="box-content h-10"
+                  //sequence={["Join the Ideathon Revolution", () => {}]}
+                  //wrapper="span"
+                  //cursor={false}
+                ///> */}
+            //</strong>
+          //</h1>
+          //<p className="text-black-500 mt-4 mb-6">
+            //Fostering Innovation through Collaboration, Technology, and Creative
+           // Thinking
+          //</p>
+          <ButtonPrimary><button onclick="https://forms.gle/smYEHjf92AcSkyZQ8">Register Now</button></ButtonPrimary>
         </div>
         <div className="flex w-full">
           <motion.div className="h-full w-full" variants={scrollAnimation}>
