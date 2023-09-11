@@ -207,9 +207,9 @@ const Feature = () => {
      </center>
   <h3 className="text-xl font-semibold mb-2">REGISTRATION FEES </h3>
   <center>
-  <table>
+  <table>//table
     <tbody>
-       <tr><td>IEEE MEMBERS:
+       <tr><td>IEEE MEMBERS:-₹200</td><td>NON IEEE MEMBERS:-₹300</td></tr>
           </div>
 
 
