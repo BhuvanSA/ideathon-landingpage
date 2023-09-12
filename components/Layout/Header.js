@@ -63,7 +63,7 @@ const Header = () => {
             >
               Details
             </LinkScroll>
-            <LinkScroll
+            {/* <LinkScroll
               activeClass="active"
               to="pricing"
               spy={true}
@@ -98,7 +98,7 @@ const Header = () => {
               }
             >
               Testimonial
-            </LinkScroll>
+            </LinkScroll> */}
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             {/* <Link href="/"> */}
@@ -181,7 +181,7 @@ const Header = () => {
               </svg>
               About
             </LinkScroll>
-            <LinkScroll
+            {/* <LinkScroll
               activeClass="active"
               to="pricing"
               spy={true}
@@ -244,7 +244,7 @@ const Header = () => {
                 />
               </svg>
               Testimonial
-            </LinkScroll>
+            </LinkScroll> */}
           </ul>
         </div>
       </nav>
