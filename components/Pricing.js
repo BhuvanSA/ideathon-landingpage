@@ -277,7 +277,9 @@ const Pricing = () => {
                   Register Now!
                 </h5>
               </div>
-              <ButtonPrimary>Register</ButtonPrimary>
+              <ButtonPrimary href="https://docs.google.com/forms/d/e/1FAIpQLSeyEIPX2rHQLSDqowUGENbddS3DaRPOcTou8nsq2kuMEd6N_Q/viewform">
+                Register
+              </ButtonPrimary>
             </div>
             <div
               className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
