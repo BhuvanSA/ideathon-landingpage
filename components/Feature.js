@@ -77,122 +77,99 @@ const Feature = () => {
       <div className="box-content h-24"></div>
       <section className="bg-white-500 py-10">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-semibold text-center mb-8">
-            About IDEAthon
-          </h2>
+          <h2 className="text-3xl font-semibold text-center mb-8">About</h2>
 
           <div className="mb-6">
-            <h3 className="text-xl font-semibold mb-2">Introduction</h3>
+            <h3 className="text-xl font-semibold mb-2">About AIdeathon</h3>
             <p>
-              IDEAthon is not just an event; it's a platform where innovation,
-              creativity, and problem-solving converge. It's where brilliant
-              minds come together to explore challenging problems and propose
-              practical solutions. IDEAthon is the stage for turning ideas into
-              actionable strategies, roadmaps, and solutions that have the
-              potential to reshape the future.
+              Aldeathon is specially designed for brainstorming to bring out and
+              foster hidden talents from participants. It also provides a unique
+              platform for individuals from different perspectives, interests,
+              and innovative minds to get together and discuss challenging
+              problems in order to propose solutions to the impending practical
+              problems. Aldeathon solicitates new and unpresented ideas and
+              innovative concepts to present in the event which can be
+              prospectively implemented.
             </p>
           </div>
 
           <div className="mb-6">
-            <h3 className="text-xl font-semibold mb-2">Eligibility</h3>
-            <ul className="list-disc pl-6">
+            <h3 className="text-xl font-semibold mb-2">About GAT</h3>
+            <p>
+              Global Academy of Technology(GAT), established in 2001, has
+              quickly risen to become one of the premier Engineering and
+              Management Institutes in Bengaluru. GAT provides quality Education
+              with a vibrant and nurturing environment to harness professional
+              skills. The campus is spread over 10 acres, offering students
+              ample opportunities to engage in a variety of academic and
+              non-academic activities towards holistic development. Along with
+              academic excellence, GAT places great emphasis on the overall
+              development of the students by providing suitable exposure to
+              industry and research, participation in various co-curricular and
+              extracurricular activities along with mentoring and counseling
+              support. GAT has committed towards holistic development and made
+              it an ideal choice among students looking for
+              comprehensive education.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold mb-2">About Department</h3>
+            <p>
+              The Department of Artificial Intelligence and Machine Learning is
+              a community for academic excellence and innovation. The curriculum
+              is designed to provide a strong foundation in core computer
+              science, artificial intelligence, and machine learning
+              specialization concepts. The students benefit from this dynamic
+              learning environment. We are proud in hosting numerous events like
+              Alfiesta, BoT lab inauguration, Webathon, and many more. The
+              department has introduced various vibrant student clubs and
+              facilitated expert guidance from the talented faculty. The
+              department solicitates ultimate support for initiatives that aim
+              to increase the representation of underrepresented groups in
+              technical fields.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold mb-2">Themes</h3>
+            <ol className="list-disc pl-6">
+              <li>AI for sustainable cities and communities</li>
+              <li>AI for quality education for sustainable development</li>
+              <li>AI for good health and wellbeing</li>
               <li>
-                Only registered undergraduate or graduate students in current
-                programs are eligible to participate in the competition.
+                AI in agriculture for sustainable consumption and production
               </li>
-              <li>
-                Only GAT students are eligible to take part in IDEAthon-2023.
-              </li>
-              <li>
-                Teams that are currently in the advanced idea, prototype, or
-                research phase are eligible.
-              </li>
-              <li>
-                The students have to provide their student ID card as part of
-                the application process.
-              </li>
-              <li>
-                The IDEAthon - 2023 team is entirely within its rights to
-                request any such additional evidence in the event of a suspect
-                of candidature.
-              </li>
-            </ul>
+            </ol>
           </div>
 
           <div className="mb-6">
             <h3 className="text-xl font-semibold mb-2">
-              Details about the Rounds Edit - Required
+              Steps to participate in AIdeathon
             </h3>
-            <ul className="list-disc pl-6">
+            <ol className="list-disc pl-6">
+              <li>Participants must register online and submit proposals.</li>
               <li>
-                Only registered undergraduate or graduate students in current
-                programs are eligible to participate in the competition.
+                Teams of 2 to 4 students can register, and they must submit a
+                brief abstract in 750 words.
               </li>
               <li>
-                Only GAT students are eligible to take part in IDEAthon-2023.
+                After the Preliminary Round the ideas will be shortlisted and
+                notified to the participants.
               </li>
               <li>
-                Teams that are currently in the advanced idea, prototype, or
-                research phase are eligible.
+                Shortlisted candidates must present their ideas in A2 format
+                posters on 27th September, 2023 in offline mode. Details will be
+                emailed to participants.
               </li>
+              <li>All teams and participants will receive certificates.</li>
+              <li>Idea copying from other sources is strictly prohibited.</li>
               <li>
-                The students have to provide their student ID card as part of
-                the application process.
+                Aldeathon committee decisions are based on evaluation and
+                recommendation from the expert jury committee,
+                making them final.
               </li>
-              <li>
-                The IDEAthon - 2023 team is entirely within its rights to
-                request any such additional evidence in the event of a suspect
-                of candidature.
-              </li>
-            </ul>
-          </div>
-
-          <div className="mb-6">
-            <h3 className="text-xl font-semibold mb-2">
-              Rules and Regulations
-            </h3>
-            <ul className="list-disc pl-6">
-              <li>Teams of 2 to 4 students are allowed to register.</li>
-              <li>The competition consists of three rounds.</li>
-              <li>
-                Registration requires completing the form honestly and providing
-                a brief abstract without any false information.
-              </li>
-              <li>
-                Participants should be prepared to showcase their ideas using a
-                PowerPoint presentation and a working prototype.
-              </li>
-              <li>Copying ideas from others is strictly prohibited.</li>
-              <li>Decisions made by the organizers are final.</li>
-              <li>
-                Proposals will be judged on their originality and viability.
-              </li>
-            </ul>
-          </div>
-
-          <div className="mb-6">
-            <h3 className="text-xl font-semibold mb-2">Event Participation:</h3>
-            <ul className="list-disc pl-6">
-              <li>
-                Participants must register online and submit their proposals.
-              </li>
-              <li>
-                Selected participants will present their ideas on the event day
-                following an initial assessment of submitted ideas.
-              </li>
-              <li>
-                Concepts will be displayed as A2 format posters on the event day
-                (details will be emailed to participants).
-              </li>
-              <li>
-                Rewards will be split between two winning entries in each
-                competition category.
-              </li>
-              <li>
-                All participating teams and individuals will receive
-                certificates.
-              </li>
-            </ul>
+            </ol>
           </div>
 
           <div className="mb-6">
