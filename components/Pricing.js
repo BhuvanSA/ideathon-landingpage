@@ -266,9 +266,19 @@ const Pricing = () => {
     //     </div>
     //   </div>
     // </div>
-    <div>
+    <div
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      id="pricing"
+    >
+      <div className="box-content h-24"></div>
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full"></div>
+        <ScrollAnimationWrapper className="relative w-full my-16">
+          <motion.div
+            variants={scrollAnimation}
+            custom={{ duration: 3 }}
+          ></motion.div>
+        </ScrollAnimationWrapper>
         <ScrollAnimationWrapper className="relative w-full mt-16">
           <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
             <div className="absolute rounded-xl  py-2 -mt-20 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
