@@ -270,14 +270,86 @@ const Pricing = () => {
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
       id="pricing"
     >
-      <div className="box-content h-24">Themes</div>
+      <div className="box-content h-24"></div>
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full"></div>
         <ScrollAnimationWrapper className="relative w-full my-16">
-          <motion.div
-            variants={scrollAnimation}
-            custom={{ duration: 3 }}
-          ></motion.div>
+          <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold mb-2 text-orange-500">
+                Themes
+              </h3>
+              <ol className="list-disc pl-6">
+                <li>AI for sustainable cities and communities</li>
+                <li>AI for quality education for sustainable development</li>
+                <li>AI for good health and wellbeing</li>
+                <li>
+                  AI in agriculture for sustainable consumption and production
+                </li>
+              </ol>
+            </div>
+
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold mb-2">
+                Steps to participate in AIdeathon
+              </h3>
+              <ol className="list-disc pl-6">
+                <li>Participants must register online and submit proposals.</li>
+                <li>
+                  Teams of 2 to 4 students can register, and they must submit a
+                  brief abstract in 750 words.
+                </li>
+                <li>
+                  After the Preliminary Round the ideas will be shortlisted and
+                  notified to the participants.
+                </li>
+                <li>
+                  Shortlisted candidates must present their ideas in A2 format
+                  posters on 27th September, 2023 in offline mode. Details will
+                  be emailed to participants.
+                </li>
+                <li>All teams and participants will receive certificates.</li>
+                <li>Idea copying from other sources is strictly prohibited.</li>
+                <li>
+                  Aldeathon committee decisions are based on evaluation and
+                  recommendation from the expert jury committee,
+                  making them final.
+                </li>
+              </ol>
+            </div>
+
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold mb-2">
+                Evaluation Criteria:
+              </h3>
+              <ul className="list-disc pl-6">
+                <li>
+                  Thoroughness: The idea should encompass a wide range of
+                  specific criteria related to the chosen problem.
+                </li>
+                <li>
+                  Innovation: Creative and inventive use of design to fulfill
+                  requirements demonstrates innovative thinking.
+                </li>
+                <li>
+                  Practicality: The submission should identify a real-world
+                  issue and offer a fresh, practical solution.
+                </li>
+                <li>
+                  Tech Feasibility: The solution should be technically feasible
+                  and adaptable to both current and future contexts.
+                </li>
+                <li>
+                  Outreach: The solution should benefit a significant number of
+                  people.
+                </li>
+                <li>
+                  Scalability: The solution's potential to be implemented at a
+                  national or international level should be evident.
+                </li>
+              </ul>
+            </div>
+          </motion.div>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper className="relative w-full mt-16">
           <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
