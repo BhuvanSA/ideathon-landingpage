@@ -7,7 +7,6 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import qrCode from "./../public/assets/FormLink.png";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -364,19 +363,31 @@ const Pricing = () => {
         id="testimoni"
       >
         <h3>Important Dates</h3>
-        <table>
+        <table className=" border-solid border-black border-4 text-center">
           <tbody>
             <tr>
-              <td>Last date to Register:</td>
-              <td>19/09/2023</td>
+              <td className=" border-solid border-black border-4 ">
+                Last date to Register:
+              </td>
+              <td className=" border-solid border-black border-4 ">
+                19/09/2023
+              </td>
             </tr>
             <tr>
-              <td>Preliminary Round:</td>
-              <td>Starts on 11/09/2023 and ends on 19/09/2023.</td>
+              <td className=" border-solid border-black border-4 ">
+                Preliminary Round:
+              </td>
+              <td className=" border-solid border-black border-4 ">
+                Starts on 11/09/2023 and ends on 19/09/2023.
+              </td>
             </tr>
             <tr>
-              <td>Championship Round:</td>
-              <td>27/09/2023 at 9.30 am.</td>
+              <td className=" border-solid border-black border-4 ">
+                Championship Round:
+              </td>
+              <td className=" border-solid border-black border-4 ">
+                27/09/2023 at 9.30 am.
+              </td>
             </tr>
           </tbody>
         </table>
@@ -384,14 +395,18 @@ const Pricing = () => {
         <table>
           <tbody>
             <tr>
-              <td>IEEE MEMBERS: ₹200</td>
-              <td>NON IEEE MEMBERS: ₹300</td>
+              <td className=" border-solid border-black border-4 text-center">
+                IEEE MEMBERS: ₹200
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                NON IEEE MEMBERS: ₹300
+              </td>
             </tr>
           </tbody>
         </table>
         <div className="box-content text-center">
           <Image
-            src="/../public/assets/FormLink.png"
+            src="/assets/FormLink.png"
             alt="QRCode Link for Register form"
             quality={100}
             height={100}
@@ -399,63 +414,97 @@ const Pricing = () => {
             // layout="fill"
           />
         </div>
-        <table>
+        <table className=" border-solid border-black border-4 text-center">
           <tbody>
             <tr>
-              <td>CHIEF PATRON</td>
-              <td>SRI. DKSHIVAKUMAR, CHAIRMAN, NEF</td>
+              <td className=" border-solid border-black border-4 text-center">
+                CHIEF PATRON
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                SRI. D K SHIVAKUMAR, CHAIRMAN, NEF
+              </td>
             </tr>
             <tr>
               <td>PATRON</td>
-              <td>
+              <td className=" border-solid border-black border-4 text-center">
                 SRI. SLEPAKSHA, SECRETARY TRUSTEE, NEF <br />
                 SRI. VENKATAPPA, ADDITIONAL SECRETARY TRUSTEE, NEF
               </td>
             </tr>
             <tr>
-              <td>CONVENOR </td>
-              <td>DR. N RANA PRATAP REDDY, PRINCIPAL, GAT</td>
+              <td className=" border-solid border-black border-4 text-center">
+                CONVENOR{" "}
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                DR. N RANA PRATAP REDDY, PRINCIPAL, GAT
+              </td>
             </tr>
             <tr>
-              <td>CO - CONVENOR</td>
-              <td>DR. PREETHI SATISH PROFESSOR & HEAD, AI & ML</td>
+              <td className=" border-solid border-black border-4 text-center">
+                CO - CONVENOR
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                DR. PREETHI SATISH PROFESSOR & HEAD, AI & ML
+              </td>
             </tr>
             <tr>
-              <td>ADVISOR</td>
-              <td>DR. ROSHAN JOY MARTIS ASSOC. PROFESSOR, DEPT. OF CSE</td>
+              <td className=" border-solid border-black border-4 text-center">
+                ADVISOR
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                DR. ROSHAN JOY MARTIS ASSOC. PROFESSOR, DEPT. OF CSE
+              </td>
             </tr>
           </tbody>
         </table>
         CO-ORDINATORS
-        <table>
+        <table className=" border-solid border-black border-4 text-center">
           <tbody>
             <tr>
-              <td>FACULTY</td>
-              <td>LAKSHMIKANTHA G C</td>
+              <td className=" border-solid border-black border-4 text-center">
+                FACULTY
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                LAKSHMIKANTHA G C
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td>ASST. PROFESSOR, DEPT. OF AI & ML</td>
+              <td className=" border-solid border-black border-4 text-center">
+                ASST. PROFESSOR, DEPT. OF AI & ML
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td>7975441021</td>
+              <td className=" border-solid border-black border-4 text-center">
+                7975441021
+              </td>
             </tr>
             <tr>
-              <td>STUDENT</td>
-              <td>HARSHITHA K SHIGGAVKAR</td>
+              <td className=" border-solid border-black border-4 text-center">
+                STUDENT
+              </td>
+              <td className=" border-solid border-black border-4 text-center">
+                HARSHITHA K SHIGGAVKAR
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td>8073204311</td>
+              <td className=" border-solid border-black border-4 text-center">
+                8073204311
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td>RITHESH KUNDAR</td>
+              <td className=" border-solid border-black border-4 text-center">
+                RITHESH KUNDAR
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td>7338359108</td>
+              <td className=" border-solid border-black border-4 text-center">
+                7338359108
+              </td>
             </tr>
           </tbody>
         </table>
