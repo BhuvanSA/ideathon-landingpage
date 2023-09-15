@@ -7,6 +7,7 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import qrCode from "./../public/assets/FormLink.png";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -377,6 +378,82 @@ const Pricing = () => {
           </tbody>
         </table>
         <h3>Registrarion Fees</h3>
+        <table>
+          <tbody>
+            <tr>
+              <td>IEEE MEMBERS: ₹200</td>
+              <td>NON IEEE MEMBERS: ₹300</td>
+            </tr>
+          </tbody>
+        </table>
+        <Image
+          src="/../public/assets/FormLink.png"
+          alt="QRCode Link for Register form"
+          quality={100}
+          height={100}
+          width={100}
+          // layout="responsive"
+        />
+        <table>
+          <tbody>
+            <tr>
+              <td>CHIEF PATRON</td>
+              <td>SRI. DKSHIVAKUMAR, CHAIRMAN, NEF</td>
+            </tr>
+            <tr>
+              <td>PATRON</td>
+              <td>
+                SRI. SLEPAKSHA, SECRETARY TRUSTEE, NEF <br />
+                SRI. VENKATAPPA, ADDITIONAL SECRETARY TRUSTEE, NEF
+              </td>
+            </tr>
+            <tr>
+              <td>CONVENOR </td>
+              <td>DR. N RANA PRATAP REDDY, PRINCIPAL, GAT</td>
+            </tr>
+            <tr>
+              <td>CO - CONVENOR</td>
+              <td>DR. PREETHI SATISH PROFESSOR & HEAD, AI & ML</td>
+            </tr>
+            <tr>
+              <td>ADVISOR</td>
+              <td>DR. ROSHAN JOY MARTIS ASSOC. PROFESSOR, DEPT. OF CSE</td>
+            </tr>
+          </tbody>
+        </table>
+        CO-ORDINATORS
+        <table>
+          <tbody>
+            <tr>
+              <td>FACULTY</td>
+              <td>LAKSHMIKANTHA G C</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>ASST. PROFESSOR, DEPT. OF AI & ML</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>7975441021</td>
+            </tr>
+            <tr>
+              <td>STUDENT</td>
+              <td>HARSHITHA K SHIGGAVKAR</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>8073204311</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>RITHESH KUNDAR</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>7338359108</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div className="flex flex-col w-full my-16" id="testimoni">
         <ScrollAnimationWrapper className="relative w-full mt-16">
