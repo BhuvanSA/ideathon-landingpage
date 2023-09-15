@@ -281,7 +281,7 @@ const Pricing = () => {
                 <h3 className="text-xl font-semibold mb-2 text-orange-500">
                   Themes
                 </h3>
-                <ol className="list-disc pl-6">
+                <ol className="list-decimal text-left">
                   <li>AI for sustainable cities and communities</li>
                   <li>AI for quality education for sustainable development</li>
                   <li>AI for good health and wellbeing</li>
@@ -295,7 +295,7 @@ const Pricing = () => {
                 <h3 className="text-xl font-semibold mb-2">
                   Steps to participate in AIdeathon
                 </h3>
-                <ol className="list-disc pl-6">
+                <ol className="list-decimal text-left">
                   <li>
                     Participants must register online and submit proposals.
                   </li>
@@ -328,7 +328,7 @@ const Pricing = () => {
                 <h3 className="text-xl font-semibold mb-2">
                   Evaluation Criteria:
                 </h3>
-                <ul className="list-disc pl-6">
+                <ul className="list-decimal text-left">
                   <li>
                     Thoroughness: The idea should encompass a wide range of
                     specific criteria related to the chosen problem.
@@ -359,7 +359,10 @@ const Pricing = () => {
           </ScrollAnimationWrapper>
         </div>
       </div>
-      <div className="" id="testimoni">
+      <div
+        className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full justify-center"
+        id="testimoni"
+      >
         <h3>Important Dates</h3>
         <table>
           <tbody>
@@ -386,14 +389,16 @@ const Pricing = () => {
             </tr>
           </tbody>
         </table>
-        <Image
-          src="/../public/assets/FormLink.png"
-          alt="QRCode Link for Register form"
-          quality={100}
-          height={100}
-          width={100}
-          // layout="responsive"
-        />
+        <div className="box-content text-center">
+          <Image
+            src="/../public/assets/FormLink.png"
+            alt="QRCode Link for Register form"
+            quality={100}
+            height={100}
+            width={100}
+            // layout="fill"
+          />
+        </div>
         <table>
           <tbody>
             <tr>
