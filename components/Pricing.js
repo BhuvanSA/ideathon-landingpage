@@ -291,7 +291,7 @@ const Pricing = () => {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-orange-500">
                   Steps to participate in AIdeathon
                 </h3>
                 <ol className="list-decimal text-left">
@@ -324,7 +324,7 @@ const Pricing = () => {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-orange-500">
                   Evaluation Criteria:
                 </h3>
                 <ul className="list-decimal text-left">
@@ -362,7 +362,10 @@ const Pricing = () => {
         className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full justify-center"
         id="testimoni"
       >
-        <h3>Important Dates</h3>
+        <div className="box-content h-24"></div>
+        <h3 className="text-xl font-semibold mb-2 text-center text-orange-500">
+          Important Dates
+        </h3>
         <table className=" border-solid border-black border-4 text-center">
           <tbody>
             <tr>
@@ -391,7 +394,9 @@ const Pricing = () => {
             </tr>
           </tbody>
         </table>
-        <h3>Registrarion Fees</h3>
+        <h3 className="text-xl font-semibold mb-2 text-center text-orange-500">
+          Registrarion Fees
+        </h3>
         <table>
           <tbody>
             <tr>
@@ -404,7 +409,7 @@ const Pricing = () => {
             </tr>
           </tbody>
         </table>
-        <div className="box-content text-center">
+        <div className="box-content text-center m-1">
           <Image
             src="/assets/FormLink.png"
             alt="QRCode Link for Register form"
@@ -457,7 +462,9 @@ const Pricing = () => {
             </tr>
           </tbody>
         </table>
-        CO-ORDINATORS
+        <h3 className="text-xl font-semibold mb-2 text-center text-orange-500">
+          CO-ORDINATORS
+        </h3>
         <table className=" border-solid border-black border-4 text-center">
           <tbody>
             <tr>
