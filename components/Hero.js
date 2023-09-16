@@ -42,7 +42,7 @@ const Hero = ({
           {/* Fostering Innovation through Collaboration, Technology, and Creative */}
           {/* Thinking */}
           {/* </p> */}
-          <ButtonPrimary href="https://forms.gle/smYEHjf92AcSkyZQ8">
+          <ButtonPrimary href="https://ideathon-landingpage.vercel.app/register">
             Register Now{" "}
           </ButtonPrimary>
         </div>

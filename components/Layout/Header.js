@@ -106,7 +106,7 @@ const Header = () => {
                   Sign In
               </a> */}
             {/* </Link> */}
-            <ButtonOutline href="https://docs.google.com/forms/d/e/1FAIpQLSeyEIPX2rHQLSDqowUGENbddS3DaRPOcTou8nsq2kuMEd6N_Q/viewform">
+            <ButtonOutline href="https://ideathon-landingpage.vercel.app/register">
               Register
             </ButtonOutline>
           </div>

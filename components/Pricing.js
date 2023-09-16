@@ -674,7 +674,7 @@ const Pricing = () => {
                   Register Now!
                 </h5>
               </div>
-              <ButtonPrimary href="https://docs.google.com/forms/d/e/1FAIpQLSeyEIPX2rHQLSDqowUGENbddS3DaRPOcTou8nsq2kuMEd6N_Q/viewform">
+              <ButtonPrimary href="https://ideathon-landingpage.vercel.app/register">
                 Register
               </ButtonPrimary>
             </div>
