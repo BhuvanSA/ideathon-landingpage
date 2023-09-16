@@ -409,16 +409,7 @@ const Pricing = () => {
             </tr>
           </tbody>
         </table>
-        <div className="box-content text-center m-1">
-          <Image
-            src="/assets/FormLink.png"
-            alt="QRCode Link for Register form"
-            quality={100}
-            height={100}
-            width={100}
-            // layout="fill"
-          />
-        </div>
+        <div className="box-content text-center m-1"></div>
         <table className=" border-solid border-black border-4 text-center">
           <tbody>
             <tr>
@@ -432,7 +423,7 @@ const Pricing = () => {
             <tr>
               <td>PATRON</td>
               <td className=" border-solid border-black border-4 text-center">
-                SRI. SLEPAKSHA, SECRETARY TRUSTEE, NEF <br />
+                SRI. S LEPAKSHA, SECRETARY TRUSTEE, NEF <br />
                 SRI. VENKATAPPA, ADDITIONAL SECRETARY TRUSTEE, NEF
               </td>
             </tr>
