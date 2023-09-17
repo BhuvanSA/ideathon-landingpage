@@ -77,13 +77,13 @@ const Feature = () => {
       <div className="box-content h-24"></div>
       <section className="bg-white-500 py-10">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-semibold text-center mb-8 text-orange-500">
+          <h2 className="text-4xl font-semibold text-center mb-10 text-orange-500">
             About
           </h2>
 
           <ScrollAnimationWrapper>
             <motion.div
-              className="h-full w-full p-1"
+              className="h-full w-full p-1 mb-6"
               variants={scrollAnimation}
             >
               <h3 className="text-xl font-semibold mb-2">About AIdeathon</h3>
@@ -102,7 +102,7 @@ const Feature = () => {
 
           <ScrollAnimationWrapper>
             <motion.div
-              className="h-full w-full p-1"
+              className="h-full w-full p-1 mb-6"
               variants={scrollAnimation}
             >
               <h3 className="text-xl font-semibold mb-2">About GAT</h3>
