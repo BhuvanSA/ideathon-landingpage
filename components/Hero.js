@@ -87,6 +87,19 @@ const Hero = ({
           style={{ filter: "blur(114px)" }}
         ></div>
       </div>
+      <ScrollAnimationWrapper>
+        <motion.div custom={{ duration: 3 + 4 }} variants={scrollAnimation}>
+          <div className="relative w-full mt-4">
+            <div
+              className="text-center bg-orange-500 text-white-500  py-2 overflow-x-auto rounded-lg"
+              style={{ whiteSpace: "nowrap" }}
+            >
+              Note: The last date of submission extended from 19/09/2023 to
+              24/09/2023
+            </div>
+          </div>
+        </motion.div>
+      </ScrollAnimationWrapper>
     </div>
   );
 };
