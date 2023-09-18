@@ -7,36 +7,40 @@ const Register = () => {
   // Your registration page content and logic here
 
   return (
-    <div>
-      <h1>
+    <>
+      <h1 className="text-center text-orange-500">
         Please download the formats listed below, fill and upload the same in
         form
-        <a
-          href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Round1SubmissionFormatIdeathon.docx?raw=True"
-          className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          rel="noopener noreferrer"
-        >
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Doc 1
-          </h5>
-          <p className="font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-        </a>
-        <a
-          href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Hits%20to%20Ideathon%20Format.docx?raw=True"
-          className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          rel="noopener noreferrer"
-        >
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Doc 2
-          </h5>
-          <p className="font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-        </a>
+        <div className="grid sm:grid-cols-2 text-center">
+          <div>
+            <a
+              href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Round1SubmissionFormatIdeathon.docx?raw=True"
+              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+              rel="noopener noreferrer"
+            >
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Preliminary round abstract format
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                Preliminary Round Abstract Format for GAT AIdeathon
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Hits%20to%20Ideathon%20Format.docx?raw=True"
+              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+              rel="noopener noreferrer"
+            >
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Report Formatting Guidelines
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                Format your documents in the following manner
+              </p>
+            </a>
+          </div>
+        </div>
         <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -71,7 +75,7 @@ const Register = () => {
         </div>
       </h1>
       {/* Add your registration form or content here */}
-    </div>
+    </>
   );
 };
 
