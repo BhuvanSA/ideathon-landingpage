@@ -2,79 +2,64 @@
 
 import React from "react";
 import { Link } from "react-scroll";
+import ButtonPrimary from "../components/misc/ButtonPrimary";
 
 const Register = () => {
   // Your registration page content and logic here
 
   return (
     <>
-      <h1 className="text-center text-orange-500">
+      <h1 className="text-center text-orange-500 text-2xl font-extrabold mb-16 p-4">
         Please download the formats listed below, fill and upload the same in
         form
-        <div className="grid sm:grid-cols-2 text-center">
-          <div>
-            <a
-              href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Round1SubmissionFormatIdeathon.docx?raw=True"
-              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-              rel="noopener noreferrer"
-            >
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Preliminary round abstract format
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Preliminary Round Abstract Format for GAT AIdeathon
-              </p>
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Hits%20to%20Ideathon%20Format.docx?raw=True"
-              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-              rel="noopener noreferrer"
-            >
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Report Formatting Guidelines
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Format your documents in the following manner
-              </p>
-            </a>
-          </div>
-        </div>
-        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
-            </h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
+      </h1>
+      <div className="grid justify-items-center gap-4 items-center">
+        <div>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeyEIPX2rHQLSDqowUGENbddS3DaRPOcTou8nsq2kuMEd6N_Q/viewform"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Round1SubmissionFormatIdeathon.docx?raw=True"
+            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            rel="noopener noreferrer"
           >
-            Go to Form
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Preliminary round abstract format
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              Abstract Format for GAT AIdeathon
+            </p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://github.com/BhuvanSA/ideathon-landingpage/blob/373499f3f2909ca632b5147a729c2269cbd40bed/public/assets/Hits%20to%20Ideathon%20Format.docx?raw=True"
+            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            rel="noopener noreferrer"
+          >
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Report Formatting Guidelines
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              Format your documents in the following manner
+            </p>
+          </a>
+        </div>
+        <ButtonPrimary href={"https://forms.gle/smYEHjf92AcSkyZQ8"}>
+          <div className="inline-flex items-center box-content w-72 justify-center">
+            <span className="mr-1">Go to form </span>
             <svg
-              className="w-3.5 h-3.5 ml-2"
-              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
             >
               <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
+                fill-rule="evenodd"
+                d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                clip-rule="evenodd"
               />
             </svg>
-          </a>
-        </div>
-      </h1>
-      {/* Add your registration form or content here */}
+          </div>
+        </ButtonPrimary>
+      </div>
     </>
   );
 };

@@ -281,7 +281,7 @@ const Pricing = () => {
             <div className="grid sm:grid-rows-2 grid-rows-4 grid-flow-col sm:gap-0 justify-evenly">
               <ScrollAnimationWrapper className="relative w-full my-6">
                 <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
-                  <div className="max-w-sm bg-white  rounded-lg shadow-xl ">
+                  <div className="max-w-sm bg-white  rounded-lg shadow-xl hover:shadow-orange-500 hover:shadow-md transition duration-150 ease-in-out">
                     <Image
                       className="rounded-t-lg"
                       src="/assets/SmartCity.webp"
@@ -299,7 +299,7 @@ const Pricing = () => {
               </ScrollAnimationWrapper>
               <ScrollAnimationWrapper className="relative w-full my-6">
                 <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
-                  <div className="max-w-sm bg-white border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                  <div className="max-w-sm bg-white border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:shadow-md hover:shadow-orange-500 transition duration-150 ease-in-out">
                     <Image
                       className="rounded-t-lg"
                       src="/assets/SmartEducation.webp"
@@ -320,7 +320,7 @@ const Pricing = () => {
                   variants={scrollAnimation}
                   custom={{ duration: 3 + 3 }}
                 >
-                  <div className="max-w-sm bg-white rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                  <div className="max-w-sm bg-white rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:shadow-md hover:shadow-orange-500 transition duration-150 ease-in-out">
                     <a href="#">
                       <Image
                         className="rounded-t-lg"
@@ -343,7 +343,7 @@ const Pricing = () => {
                   variants={scrollAnimation}
                   custom={{ duration: 3 + 3 }}
                 >
-                  <div className="max-w-sm bg-white  border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                  <div className="max-w-sm bg-white  border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:shadow-md hover:shadow-orange-500 transition duration-150 ease-in-out">
                     <a href="#">
                       <Image
                         className="rounded-t-lg"
