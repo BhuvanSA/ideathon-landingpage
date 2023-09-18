@@ -71,7 +71,7 @@ const Register = () => {
           </a>
         </div>
         <ButtonPrimary href={"https://forms.gle/smYEHjf92AcSkyZQ8"}>
-          <div className="inline-flex items-center box-content w-72 justify-center">
+          <div className="inline-flex items-center box-content w-72 justify-center lg:w-64">
             <span className="mr-1">Go to form </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
