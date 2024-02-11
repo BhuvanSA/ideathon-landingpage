@@ -38,4 +38,4 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## Copyright and License
 
-Code released under the MIT license.
+Code released under the GNU GENERAL PUBLIC LICENSE.
