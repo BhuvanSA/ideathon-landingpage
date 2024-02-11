@@ -1,6 +1,6 @@
-# [Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) - Free Landingpage Template Apps
+# [Ideathon Landing Page](https://ideathon.bhuvansa.com/) - Official Landing Page for College Ideathon
 
-Tailwind VPN Landingpage is an open source, apps landing page template for [Tailwind CSS](https://tailwindcss.com/) and[ NextJS](nextjs.org/) coded by [Faldi](twitter.com/f2aldi) and design from [Didi](https://twitter.com/didiikurniawann).
+The Ideathon Landing Page is an open-source, event landing page built using [Tailwind CSS](https://tailwindcss.com/) and [NextJS](https://nextjs.org/) designed and coded for our college's Ideathon event.
 
 ![Landing Page](./landingpage.png)
 
@@ -8,34 +8,34 @@ Tailwind VPN Landingpage is an open source, apps landing page template for [Tail
 
 Choose one of the following options to get started:
 
-- [Download the latest release](https://github.com/naufaldi/next-landing-vpn/archive/main.zip)
-- Clone the repo: `git clone https://github.com/naufaldi/next-landing-vpn.git`
+- [Download the latest release](https://github.com/your-github-username/ideathon-landing-page/archive/main.zip)
+- Clone the repo: `git clone https://github.com/your-github-username/ideathon-landing-page.git`
 - Fork the repo
 
 ## About the Template
 
-- Template building using NextJS Version 10
-- Tailwind v2.0
+- Template built using NextJS and Tailwind CSS
+- Routing handled by NextJS /pages router
 
-## Feature Template
+## Running the Application
 
-- Using [NextJS Image](https://nextjs.org/docs/api-reference/next/image) for Image Optimization
-- Slider using [React Slick](https://react-slick.neostack.com/docs/api)
-- Smooth Scrolling and Active menu using [React Scroll](https://www.npmjs.com/package/react-scroll)
+- Run the application in development mode: `npm run dev`
+- Build the application for production: `npm run build`
+- Start the application in production mode: `npm run start`
+
+## Features
+
+- Publicly accessible at [https://ideathon.bhuvansa.com/](https://ideathon.bhuvansa.com/)
+- Utilizes Next.js's file-system based routing under the `/pages` directory. This allows for automatic routing based on the file and directory structure, making it easy to structure and navigate the application.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/naufaldi/next-landing-vpn/issues/new) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/your-github-username/ideathon-landing-page/issues/new) here on GitHub.
 
 ## Creator
 
-[Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) was coded and modified by and is maintained by **[me](https://github.com/naufaldi/)**, and dekstop design by [Didi Kurniawan](https://twitter.com/didiikurniawann)
+[Ideathon Landing Page](https://ideathon.bhuvansa.com/) was designed and coded by **[me](https://github.com/your-github-username/)**
 
 ## Copyright and License
 
 Code released under the MIT license.
-
-## To Do List Add Feature
-
-- [ ] Animation using Framer Motion
-# ideathon-landingpage
