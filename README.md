@@ -8,7 +8,7 @@ The Ideathon Landing Page is an open-source, event landing page built using [Tai
 
 Choose one of the following options to get started:
 
-- [Download the latest release](https://github.com/BhuvanSA/ideathon-landing-page/archive/main.zip)
+- [Download the latest release](https://github.com/BhuvanSA/ideathon-landingpage/releases/latest)
 - Clone the repo: `git clone https://github.com/BhuvanSA/ideathon-landingpage.git`
 - Fork the repo
 
