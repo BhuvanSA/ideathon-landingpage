@@ -3,7 +3,6 @@ import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
-import { Analytics } from "@vercel/analytics";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
         <Feature />
         <Pricing />
       </Layout>
-      <Analytics />
     </>
   );
 }
