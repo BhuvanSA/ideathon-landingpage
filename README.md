@@ -8,8 +8,8 @@ The Ideathon Landing Page is an open-source, event landing page built using [Tai
 
 Choose one of the following options to get started:
 
-- [Download the latest release](https://github.com/your-github-username/ideathon-landing-page/archive/main.zip)
-- Clone the repo: `git clone https://github.com/your-github-username/ideathon-landing-page.git`
+- [Download the latest release](https://github.com/BhuvanSA/ideathon-landing-page/archive/main.zip)
+- Clone the repo: `git clone https://github.com/BhuvanSA/ideathon-landingpage.git`
 - Fork the repo
 
 ## About the Template
@@ -30,11 +30,11 @@ Choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/your-github-username/ideathon-landing-page/issues/new) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BhuvanSA/ideathon-landingpage/issues/new) here on GitHub.
 
 ## Creator
 
-[Ideathon Landing Page](https://ideathon.bhuvansa.com/) was designed and coded by **[me](https://github.com/your-github-username/)**
+[Ideathon Landing Page](https://ideathon.bhuvansa.com/) was designed and coded by **[me](https://github.com/BhuvanSA/)**
 
 ## Copyright and License
 
