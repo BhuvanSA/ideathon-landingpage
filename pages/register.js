@@ -1,7 +1,6 @@
 // pages/register.js
 
 import React from "react";
-import { Link } from "react-scroll";
 import ButtonPrimary from "../components/misc/ButtonPrimary";
 
 const Register = () => {

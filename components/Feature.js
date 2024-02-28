@@ -1,16 +1,7 @@
-import Image from "next/image";
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-
-const features = [
-  "Powerfull online protection.",
-  "Internet without borders.",
-  "Supercharged VPN",
-  "No specific time limits.",
-  "More Details coming soon",
-];
 
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -94,8 +85,6 @@ const Feature = () => {
               </div>
             </motion.div>
           </ScrollAnimationWrapper>
-
-          {/* Add other sections (Details about the Rounds, Rules and Regulations, Event Participation, Other Considerations, Evaluation Criteria, and Timeline for the Competition) following a similar structure */}
         </div>
       </section>
     </div>

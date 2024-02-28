@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
-import MarqueeText from "./misc/MarqueeText";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
@@ -38,10 +37,6 @@ const Hero = ({
             <strong className=" text-orange-500">AIdeathon:</strong> <br />
             Unveiling Innovation{" "}
           </h1>
-          {/* <p className="text-black-500 mt-4 mb-6"> */}
-          {/* Fostering Innovation through Collaboration, Technology, and Creative */}
-          {/* Thinking */}
-          {/* </p> */}
           <ButtonPrimary href="https://ideathon-landingpage.vercel.app/register">
             Register Now{" "}
           </ButtonPrimary>
