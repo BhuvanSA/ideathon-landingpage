@@ -7,12 +7,13 @@ const defaultMeta = {
   siteName: "GAT Ideathon Landing Page",
   description: "Landing page for GAT Ideathon AI ML",
   // change base url of your web (without '/' at the end)
-  url: "https://next-landing-vpn.vercel.app",
+  url: "ideathon.bhuvansa.com",
   type: "website",
   robots: "follow, index",
-  // change with url of your image (recommended dimension = 1.91:1)
+  // URL of card image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
-  image: "https://next-landing-vpn.vercel.app/assets/card-image.png",
+  // image: "https://next-landing-vpn.vercel.app/assets/card-image.png",
+  image: "https://ideathon.bhuvansa.com/assets/card-image.jpeg",
   author: "BhuvanSA",
 };
 
