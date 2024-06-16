@@ -32,9 +32,6 @@ Choose one of the following options to get started:
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BhuvanSA/ideathon-landingpage/issues/new) here on GitHub.
 
-## Creator
-
-[Ideathon Landing Page](https://ideathon.bhuvansa.com/) was designed and coded by **[me](https://github.com/BhuvanSA/)**
 
 ## Copyright and License
 
